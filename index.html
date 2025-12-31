@@ -235,29 +235,99 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td>Immunohematology Records</td>
+                              <td>Requests for Tests</td>
+                                <td>7 Years</td>
+                                <td>2 Years</td>
+                            </tr>
+                            <tr>
+                                <td>Accession Records</td>
+                                <td>7 Years</td>
+                                <td>2 Years</td>
+                            </tr>
+                            <tr>
+                                <td>Equipment Maintenance/Service/Repair Records</td>
+                                <td>Instrument Life</td>
+                                <td>Instrument Life <strong> plus 2 Years</strong></td>
+                            </tr>
+                            <tr>
+                                <td>Temperature/Humidity Monitoring Records</td>
+                                <td>1 Year</td>
+                                <td>2 Years</td>
+                            </tr>                            
+                            <tr>
+                                <td>Tissue Pathology <strong> and Cytopathology</strong> Laboratory Reports</td>
                                 <td>20 Years</td>
                                 <td>10 Years</td>
                             </tr>
                             <tr>
-                                <td>Paraffin Tissue Blocks</td>
-                                <td>20 Years</td>
-                                <td>2 Years</td>
-                            </tr>
+                                <td>Molecular Oncology Laboratory Reports</td>
+                                <td>2 Years for syphilis serology (negative)</td>
+                                <td>10 Years</td>
+                            </tr>                            
                             <tr>
-                                <td>Cytogenetics Reports</td>
+                                <td>Cytogenetics Laboratory Reports</td>
                                 <td>25 Years</td>
                                 <td>10 Years</td>
+                            </tr>                            
+                            <tr>
+                                <td>All Other Laboratory Reports</td>
+                                <td>7 Years</td>
+                                <td>2 Years</td>
                             </tr>
                             <tr>
-                                <td>Molecular Oncology Reports</td>
-                                <td>7 Years</td>
+                                <td>Worksheets Containing Instrument Readings and/or Personal Observations Upon Which the Outcome is Based</td>
+                                <td>1 Year</td>
+                                <td>2 Years</td>
+                            </tr>                            
+                            <tr>
+                                <td>Tissue Pathology Permenant Slides</td>
+                                <td>1 Year for blood film (other than routine)</td>
+                                <td>20 Years</td>
+                            </tr>
+                            <tr>
+                                <td>Tissue Pathology Paraffin Blocks</td>
+                                <td>6 months for blood film (routine)</td>
+                                <td>2 Years</td>
+                            </tr>
+                            <tr>
+                                <td>Tissue Pathology Immunohistochemical and/or Digital Images</td>
+                                <td>1 Year for bacteriology slide on which a diagnosis depends</td>
                                 <td>10 Years</td>
                             </tr>
                             <tr>
-                                <td>Analytic Metadata (QC/Cal)</td>
-                                <td>2 Years</td>
-                                <td>2 Years (Detailed per CLIA K)</td>
+                                <td>Cytopathology Slides</td>
+                                <td>7 Years for slides <strong> showing any abnormality</strong></td>
+                                <td>5 Years for all slides</td>
+                            </tr>                            
+                            <tr>
+                                <td>Cytopathology Digital Images</td>
+                                <td>3 Years for slides <strong> showing no abnormality</strong></td>
+                                <td>5 Years for all images</td>
+                            </tr>                           
+                            <tr>
+                                <td>Bacteriology and Mycobacteriology Slides</td>
+                                <td>20 Years for tissue blocks</td>
+                                <td>2 weeks after final confirmatory report is issued</td>
+                            </tr>                             
+                            <tr>
+                                <td>Mycobacteriology Isolates</td>
+                                <td>20 Years for histopathology blocks</td>
+                                <td>1 Year</td>
+                            </tr>                            
+                            <tr>
+                                <td>Cytogenetic <strong>Permanent</strong> Slides</td>
+                                <td>6 Years</td>
+                                <td>3 Years</td>
+                            </tr>  
+                            <tr>
+                                <td>Cytogenetic Digital Images</td>
+                                <td>25 years for photographic slide of cytogenetic karyotype</td>
+                                <td>10 Years</td>
+                            </tr>                          
+                            <tr>
+                                <td>Molecular Oncology Immunohistochemical Images or Permanent Slides</td>
+                                <td>1 Week for recipient blood specimens</td>
+                                <td>10 Years</td>
                             </tr>
                         </tbody>
                     </table>
@@ -324,7 +394,7 @@
 
                     ${s.appendix ? `
                         <div class="px-8 py-10 bg-white border-t border-black">
-                            <h3 class="text-[10px] font-black uppercase text-slate-400 mb-4 tracking-widest text-black">Technical Detail Matrix</h3>
+                            <h3 class="text-[10px] font-black uppercase text-slate-400 mb-4 tracking-widest text-black"></h3>
                             ${s.appendix}
                         </div>
                     ` : ""}
@@ -357,3 +427,4 @@
     </script>
 </body>
 </html>
+
